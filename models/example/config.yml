@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: source_transformation
+
+    # Configure in ways that feel intuitive and familiar
+    config:
+      materialized: table
+      tags: ['python']
+

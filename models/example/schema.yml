@@ -1,0 +1,17 @@
+
+version: 2
+
+sources:
+  - name: google_data
+    database: INGESTION_PIPELINE_DATABASE
+    schema: INGESTION_SOURCE_DATA
+
+    tables:
+      - name: INGESTION_SOURCE_RAW_DATA
+
+  - name: transformation_meta_data
+    database: INGESTION_PIPELINE_DATABASE
+    schema: INGESTION_SOURCE_TRANSFORMATION_META
+
+    tables:
+      - name: TRANSFORMATION_META    
